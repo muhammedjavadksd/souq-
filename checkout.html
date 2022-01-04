@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+
+    <script src="css/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        .slick-list {
+            padding: 0 11% 0 30px !important;
+        }
+        
+        body {
+            padding-bottom: 20px !important;
+        }
+    </style>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="row main_hide">
+            <div class="col-md-4 top_bar">
+                <div class="logo_nav">
+                    <button class="navbutton" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><i class="fas fa-bars"></i></button>
+                    <img src="https://cdn.worldvectorlogo.com/logos/fedex-express-6.svg" alt="">
+                </div>
+            </div>
+            <div class="col-md-8 searchbar">
+                <form action="">
+                    <input type="text" placeholder="Search for product"><button><i class="fas fa-search"></i></button>
+                </form>
+
+                <div class="button_main">
+                    <button><i class="fas fa-home"></i></button>
+                    <button>    <i class="fas fa-shopping-cart"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section style=" margin: 10px; ">
+
+        <div class="table_box">
+            <table class="chtab">
+                <thead>
+                    <th>Total items</th>
+                    <th>:1</th>
+                </thead>
+                <thead>
+                    <th>Total Price</th>
+                    <th>:18000-/</th>
+                </thead>
+                <thead>
+                    <th>Total quanity</th>
+                    <th>:1000</th>
+                </thead>
+            </table>
+        </div>
+
+        <div class="table_box mt-2">
+            <table class="chtab">
+                <thead>
+                    <th>Name</th>
+                    <th>:Product name</th>
+                </thead>
+                <thead>
+                    <th>Size</th>
+                    <th>:120gm</th>
+                </thead>
+                <thead>
+                    <th>Minimum Oder</th>
+                    <th>:10</th>
+                </thead>
+                <thead>
+                    <th>Quanity</th>
+                    <th>:1000</th>
+                </thead>
+                <thead>
+                    <th>Batch Minimum </th>
+                    <th>:1000</th>
+                </thead>
+                <thead>
+                    <th>Batch no</th>
+                    <th>:1</th>
+                </thead>
+                <thead>
+                    <th>Unit price</th>
+                    <th>:10</th>
+                </thead>
+                <thead>
+                    <th>Sub total</th>
+                    <th>:18000-/</th>
+                </thead>
+            </table>
+
+
+
+        </div>
+    </section>
+
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                <input type="name" class="form-control" name="name">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Address</label>
+                <textarea class="form-control" name="address"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">House/Office No</label>
+                <input class="form-control" name="house">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Street</label>
+                <input class="form-control" name="street">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Pincode</label>
+                <input class="form-control" name="pincode">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">City</label>
+                <input class="form-control" name="city">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Locality</label>
+                <input class="form-control" name="city">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Payment screenshot</label>
+                <input class="form-control" name="screenshot" type="file">
+            </div>
+
+
+
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <div class="bottom">
+        <button class="btn btn-primary">Go</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+    <!-- Navbar canvas -->
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+
+            </h5>
+            <div class="input-group inptutsearch mb-3">
+                <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search product" aria-label="Username" aria-describedby="basic-addon1">
+            </div><br><br>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navlist">
+                <li><a href="">Home</a></li>
+                <li><a href="">Performance</a></li>
+                <li><a href="">Account's</a></li>
+                <li><a href="">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="css/script.js"></script>
+
+</html>
